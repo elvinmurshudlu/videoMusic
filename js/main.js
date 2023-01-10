@@ -35,7 +35,7 @@ function load(){
         musicIndex = 0
     }
     musicName.innerHTML = music[musicIndex]
-    let imageUrl = `/image/${music[musicIndex]}.jpg`
+    let imageUrl = `./image/${music[musicIndex]}.jpg`
     musicCoverImg.src = imageUrl
     audio.src = `./music/${music[musicIndex]}.mp3`
     
