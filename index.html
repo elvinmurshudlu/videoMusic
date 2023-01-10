@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="video">
+            <div class="videoPlayer">
+                <div class="videoPlayer_Video">
+                    <video  src="https://res.cloudinary.com/ifeomaimoh/video/upload/v1650567487/speech_ofvfzq.mp4" type="mp4"></video>
+                </div>
+                <div class="videoProgress"></div>
+
+                <div class="videoPlayer_control">
+                    <button class="prevSecond">10sec</button>
+
+                    <button class="videoPlayBtn">Play</button>
+                    <button class="skipSecond">15sec</button>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="music">
+            <div class="coverMusic">
+                <img src="" alt="" class="coverMusicImg">
+            </div>
+            <div class="musicPlayerBg">
+                <div class="musicPlayer">
+                    <div class="musicName">
+                        <h5 class="musicTitle">Music Name</h5>
+                    </div>
+                    <div class="musicControl">
+                        <audio src=""></audio>
+                        <i class="fa-solid fa-backward prevMusic"></i>
+                        <i class="fa-solid fa-play playMusic"></i>
+                        <i class="fa-solid fa-forward nextMusic"></i>
+                        <i class="fa-solid fa-microphone symVolume"></i>
+                        <div class="musicVolumeBox hidden">
+                            <div class="musicVolume">
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="progress">
+                        <div class="loading"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+               
+    </div>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/video.js"></script>
+</body>
+</html>
